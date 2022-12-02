@@ -26,7 +26,7 @@ On this blog we will share information about finances, technical details and oth
       href = "https://toot.community"
       new_tab = true
     [[params.links.link]]
-      name = "Github"
+      name = "GitHub"
       href = "https://github.com/toot-community"
       new_tab = true
     [[params.links.link]]
