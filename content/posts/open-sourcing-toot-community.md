@@ -51,7 +51,7 @@ Our current Kubernetes stack is quite different from where we started; we now ha
 - Nginx ingress
 - [KEDA](https://keda.sh/) for event-driven scaling of the web and sidekiq pods
 - Prometheus 
-- [LibreTranslate]https://libretranslate.com/
+- [LibreTranslate](https://libretranslate.com/)
 
 Jorijn did a wonderful job of going into detail on each of these applications in the README of [the kubernetes repository](https://github.com/toot-community/kubernetes) so I'll not be repeating that here.
 
