@@ -62,4 +62,4 @@ A big thanks to my friend and co-admin, [@mijndert](https://toot.community/@mijn
 
 If any of you have any questions, please let me know. Thanks for reading and until the next time. 🙏
 
-- Jorijn
+Written by [@jorijn](https://toot.community/@jorijn).

@@ -5,8 +5,6 @@ tags: []
 draft: true
 ---
 
-## Introduction
-
 Tomorrow marks the first month of toot.community's existence. We grew very fast, and with us, our storage did so too.
 Currently, we store 935GB spread out over 3,191,702 files. Our data consists of avatars, header images, individual
 account exports, and media attachments of posts.
@@ -18,7 +16,9 @@ outgoing traffic.
 
 We will migrate our data to Cloudflare R2, API-compatible with S3, just like DigitalOcean, but cheaper for Egress fees.
 
-### Taking inventory: what do we use?
+<!-- more -->
+
+## Taking inventory: what do we use?
 
 ![](/images/20221202-screenshot-cache-overview.png)
 
@@ -32,7 +32,7 @@ Here, we're looking at the amount of traffic our CDN has served. As you can see,
 this bandwidth, and since their Egress fees are free, we're left to deal with the costs for traffic served from our
 origin servers. Extrapolating again: ± 7,5 TB of outgoing traffic, only 920 GB from our origin servers.
 
-### How does this translate to costs?
+## How does this translate to costs?
 
 The DigitalOcean pricing plan is as follows:
 
@@ -46,7 +46,7 @@ The DigitalOcean pricing plan is as follows:
 * For now, no additional Egress fees
 * **Total: $18.70/month**
 
-### Comparing to CloudFlare R2
+## Comparing to CloudFlare R2
 
 CloudFlare R2 is a bit more complicated to calculate, but we can use the following formula:
 
@@ -111,3 +111,4 @@ location @digitalocean {
 }
 ```
 
+Written by [@jorijn](https://toot.community/@jorijn).

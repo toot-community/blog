@@ -41,3 +41,5 @@ We're committed to the [Mastodon Server Covenant](https://joinmastodon.org/cove
 Since costs rise linear with the number of users, registrations are now closed. I want to wait with reopening until traffic decreases or we get some financial wiggle room to maneuver again. My priority, before growth, is to ensure a pleasant user experience for the people already in this community.
 
 Thanks, and until the next time.
+
+Written by [@jorijn](https://toot.community/@jorijn).
