@@ -30,6 +30,6 @@ On this blog we will share information about finances, technical details and oth
       href = "https://github.com/toot-community"
       new_tab = true
     [[params.links.link]]
-      name = "Code of Conduct"
-      href = "https://github.com/toot-community/.github/blob/main/CODE_OF_CONDUCT.md"
+      name = "RSS Feed"
+      href = "https://blog.toot.community/index.xml"
       new_tab = true
