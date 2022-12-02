@@ -19,7 +19,7 @@ We're open sourcing both the platform (infrastructure) code as well as all Kuber
 
 As we're hosting most of our infrastructure on Digitalocean I used [Terraform](https://www.terraform.io/) to describe it all. Having everything in code means it's self-documenting and setting up an environment to test an upgrade is as easy as copying a few files.
 
-The infrastructure currently consits of:
+The infrastructure currently consists of:
 
 - DOKS for the Kubernetes cluster
 - Managed PostgreSQL
