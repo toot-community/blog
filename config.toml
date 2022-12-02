@@ -1,0 +1,35 @@
+baseURL = "https://blog.toot.community"
+languageCode = "en-us"
+title = "Toot.community"
+theme = "rocinante"
+paginate = 10
+
+[markup]
+  [markup.highlight]
+    style = "monokailight"
+  [markup.goldmark.renderer]
+    unsafe= true
+
+[params]
+  favicon = "/icons/favicon.png"
+  mainSections = ["posts"]
+  email = "jorijn@jorijn.com"
+  about = """
+We're a generic, free-for-all Mastodon instance hosted in The Netherlands. We're welcoming to all that seek a place of enjoyment online while being excellent to each other.
+
+On this blog we will share information about finances, technical details and other relevant stuff related to running a Mastodon instance.
+"""
+
+  [[params.links]]
+  [[params.links.link]]
+      name = "Mastodon"
+      href = "https://toot.community"
+      new_tab = true
+    [[params.links.link]]
+      name = "Github"
+      href = "https://github.com/toot-community"
+      new_tab = true
+    [[params.links.link]]
+      name = "Code of Conduct"
+      href = "https://github.com/toot-community/.github/blob/main/CODE_OF_CONDUCT.md"
+      new_tab = true
