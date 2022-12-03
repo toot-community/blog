@@ -7,7 +7,7 @@ draft: true
 
 Open source software has been one of my very first introductions to computing. Way back in 1995 I got to install Red Hat Linux on a hand-me-down IBM PC and that led to me learn more about the inner working of computers than I could have ever imagined. A love for simple, open source software was born and I carried that forward by always open sourcing as much of my work as I can. To this day, even though my operating system is closed source, most software I'm using is open source.
 
-<!-- more -->
+<!--more-->
 
 When [Jorijn](https://toot.community/@jorijn/) and I started toot.community we all had to figure it out on the fly - I don't think anyone else was doing Mastodon completely autoscaled and event-driven on top of Kubernetes. As we were going through a lot of challenges I put forward the idea to one day open source all of our efforts. 
 

@@ -16,7 +16,7 @@ outgoing traffic.
 
 We will migrate our data to Cloudflare R2, API-compatible with S3, just like DigitalOcean, but cheaper for Egress fees.
 
-<!-- more -->
+<!--more-->
 
 ## Taking inventory: what do we use?
 
