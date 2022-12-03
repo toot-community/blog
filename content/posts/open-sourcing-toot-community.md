@@ -5,7 +5,7 @@ tags: []
 draft: true
 ---
 
-Open source software has been one of my very first introductions to computing. Way back in 1996 I got to install Red Hat Linux on a hand-me-down IBM PC what led to me learning more about the inner working of computers than I could have ever imagined. A love for simple, open source software was born and I carried that forward by always open sourcing as much of my work as I can. To this day, even though my operating system is closed source, most software I'm using is open source.
+Open source software has been one of my very first introductions to computing. Way back in 1995 I got to install Red Hat Linux on a hand-me-down IBM PC and that led to me learn more about the inner working of computers than I could have ever imagined. A love for simple, open source software was born and I carried that forward by always open sourcing as much of my work as I can. To this day, even though my operating system is closed source, most software I'm using is open source.
 
 <!-- more -->
 
@@ -30,8 +30,8 @@ I'll be honest here, the Terraform [provider for Digitalocean](https://registry.
 
 A few examples:
 
-- There's no way to import a Digitalocean project, which is kind of like a bucket of resources like servers and databases, into Terraform state. As I had to import already existing infrastructure, this means the project isn't in code and anyone using this Terraform code will not have their resources organized into one.
-- Creating a Digitalocean Kubernetes cluster doesn't allow me to create an empty cluster without any node pools. Also, subsequent node pools need to be created using a seperate resource called `digitalocean_kubernetes_node_pool`. This way changing anything about the primary node pool also has the potential to change some properties on the Kubernetes cluster. I'm not too psyched about that.
+- There's no way to import a Digitalocean project into Terraform state. As I had to import already existing infrastructure, this means the project isn't in code and anyone using this Terraform code will not have their resources organized into one.
+- Creating a Digitalocean Kubernetes cluster doesn't allow me to create an empty cluster without any node pools. Also, subsequent node pools need to be created using a separate resource called `digitalocean_kubernetes_node_pool`. This way changing anything about the primary node pool also has the potential to change some properties on the Kubernetes cluster. I'm not too psyched about that.
 - Importing a Digitalocean Spaces bucket doesn't get you all properties associated with the resources like the CORS policy. This means you have to be extra careful to not overwrite something.
 - Creating a read-replica of a database instance does indeed create a resource but then returns a 404 error. This was later fixed in [version 2.25.2](https://github.com/digitalocean/terraform-provider-digitalocean/issues/906) of the provider.
 
@@ -57,6 +57,6 @@ Jorijn did a wonderful job of going into detail on each of these applications in
 
 ## Moving forward
 
-This blog will allow us to do deep dives into technical implementation details and things we learned along the way. Other than technical stuff, we also want to share more stuff about moderating a Mastodon instance and I'm sure we will come up with even more tooling we can open source.
+This blog will allow us to do deep dives into technical implementation details and things we learned along the way. Other than technical stuff, we also want to share more about moderating a Mastodon instance and I'm sure we will come up with even more tooling we can open source.
 
 Written by [@mijndert](https://toot.community/@mijndert).
