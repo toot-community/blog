@@ -1,8 +1,8 @@
 ---
 title: "Open sourcing toot.community"
-date: 2022-12-02T12:00:00+01:00
+date: 2022-12-03T11:00:00+01:00
 tags: []
-draft: true
+draft: false
 ---
 
 Open source software has been one of my very first introductions to computing. Way back in 1995 I got to install Red Hat Linux on a hand-me-down IBM PC and that led to me learn more about the inner working of computers than I could have ever imagined. A love for simple, open source software was born and I carried that forward by always open sourcing as much of my work as I can. To this day, even though my operating system is closed source, most software I'm using is open source.
