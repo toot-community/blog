@@ -33,3 +33,8 @@ On this blog we will share information about finances, technical details and oth
       name = "RSS Feed"
       href = "https://blog.toot.community/index.xml"
       new_tab = true
+    [[params.links.link]]
+      name = "Support"
+      href = "https://toot.community/@support"
+      rel = "me"
+      new_tab = true
